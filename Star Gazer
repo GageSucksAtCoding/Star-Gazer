@@ -1,0 +1,65 @@
+running = True
+while running:
+  print("Think of a Month and I will try to guess it!")
+  guess = input("January? (Yes/No) >> ")
+  if guess == "yes":
+    print("Yay I guessed it!")
+    running = False
+  if guess == "no":
+    guess1 = input("February? (Yes/No) >> ")
+    if guess1 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess1 == "no":
+      guess2 = input("March? (Yes/No) >> ")
+    if guess2 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess2 == "no":
+     guess3 = input("April? (Yes/No) >> ")
+    if guess3 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess3 == "no":
+      guess4 = input("May? (Yes/No) >> ")
+    if guess4 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess4 == "no":
+      guess5 = input("June? (Yes/No) >> ")
+    if guess5 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess5 == "no":
+      guess6 = input("July? (Yes/No) >> ")
+    if guess6 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess6 == "no":
+      guess7 = input("August? (Yes/No) >> ")
+    if guess7 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess7 == "no":
+      guess8 = input("September? (Yes/No) >> ")
+    if guess8 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess8 == "no":
+      guess9 = input("October? (Yes/No) >> ")
+    if guess9 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess9 == "no":
+      guess10 = input("November? (Yes/No) >> ")
+    if guess10 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess10 == "no":
+      guess11 = input("December? (Yes/No) >> ")
+    if guess11 == "yes":
+      print("Yay I guessed it!")
+      running = False
+    if guess11 == "no":
+      print("Your a dirty little cheater...")
+      running = False
